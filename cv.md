@@ -24,6 +24,7 @@ I am 24 years old. I like to take part in the initial stages of the project to g
 * JavaScript (Fundamentals, ES6)
 * Git/GitHub
 * Avocode, Figma, Photoshop
+* Java
 
 # Code Examples
 
