@@ -43,4 +43,5 @@ I am 24 years old. I like to take part in the initial stages of the project to g
     * Advanced JS    
 # Languages
 * Ukrainian - native speaker.
+* Polish - B2
 * English - A2 (B1 in process…)
