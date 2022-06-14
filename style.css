@@ -35,3 +35,65 @@ hr {
   border-width: 1px 0 0 0;
   border-radius: 20px;
 }
+/* add styles to left-column */
+.left-column {
+  background-color: #8a5d5d;
+  width: 32%;
+}
+/* add styles to main photo */
+.main-photo {
+  margin: 7px 0px 0px 25px;
+  border-radius: 150px;
+  box-shadow: 0 0 0 3px rgb(209, 218, 209), 0 0 13px #333;
+}
+/* add styles to contacts section */
+.contacts li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.contacts li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+.contacts-ico {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.contacts li p {
+  display: inline;
+  vertical-align: middle;
+}
+/* add styles to skill progress */
+.container {
+  width: 100%; 
+  background-color: #ddd; 
+  text-align: center;
+  font-size: 10px;
+}
+
+.skills-wrapper {
+  padding: 10px; 
+  line-height: 10px; 
+  color: rgb(243, 242, 242); 
+}
+
+.html, .css {
+  width: 90%;
+  background-color: #363844;
+}
+.js, .figma {
+  width: 65%; 
+  background-color: #363844;
+} 
+.git {
+  width: 70%; 
+  background-color: #363844;
+}
+/* add styles to list - languages */
+.list-lang {
+  color: rgb(255, 255, 255);
+}
