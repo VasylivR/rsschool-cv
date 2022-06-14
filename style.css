@@ -146,3 +146,36 @@ h1{
   margin-left: 15px;
   font-style: italic;
 }
+/* add styles to footer */
+.footer {
+  background-color: #363844;
+  padding: 15px;
+}
+.container-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+.github-link {
+  color: #e0d9d9;
+  text-decoration: none;
+  font-weight: bold;
+}
+.github-link:hover{
+  font-size: 22px;
+  color: #4d2323;
+}
+
+.rsschool-img {
+  background-image: url("./assets/svg/rs.svg");
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 130px;
+  height: 50px;
+}
+.rsschool-img:hover{
+  width: 150px;
+  height: 60px;
+}
