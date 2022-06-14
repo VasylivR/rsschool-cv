@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV html</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/svg/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div class="main-wrapper">
+            <main class="main">
+                <!--created left column-->
+                <div class="left-column">
+                    <img class="main-photo" src="assets/img/avatr_n.jpg" alt="my photo" width="280" height="270">
+                    <!--add section contacts-->
+                        <section class="contacts" id="contacts">
+                            <h3>Contacts</h3>
+                            <ul>
+                                <li><img class="contacts-ico" src="assets/svg/PHONE_ICON.svg" alt="phone.ico"><p>+380932301027</p></li>
+                                <li><img class="contacts-ico" src="assets/svg/EMAIL_ICON.svg" alt="e-mail.ico"><a href="#">vasylivromana@gmail.com</a></li>
+                                <li><img class="contacts-ico" src="assets/svg/LOCATION_ICON.svg" alt="location.ico"> <p>Lviv, Ukraine</p></li>
+                            </ul>
+                        </section>
+                        <!--add section skills-->
+                        <section class="skills" id="skills">
+                            <h3>Skills</h3>
+                            <!--add skills progress-->
+                            <div class="skills-wrapper">
+                                <p>HTML5</p>
+                                <div class="container">
+                                <div class="skills html">90%</div>
+                                </div>
+
+                                <p>CSS</p>
+                                <div class="container">
+                                <div class="skills css">90%</div>
+                                </div>
+
+                                <p>JavaScript</p>
+                                <div class="container">
+                                <div class="skills js">65%</div>
+                                </div>
+
+                                <p>Git, GitHub</p>
+                                <div class="container">
+                                <div class="skills git">70%</div>
+                                </div>
+
+                                <p>Figma</p>
+                                <div class="container">
+                                <div class="skills figma">65%</div>
+                                </div>
+                            </div>
+                        </section>
+                        <!--add section languages-->
+                        <section class="languages" id="languages">
+                            <h3>Languages</h3>
+                            <ul class="list-lang">
+                                <li>Ukrainian - native speaker</li>
+                                <li>Polish - B2</li>
+                                <li>English - A2</li>
+                            </ul>
+                        </section>
+                </div>
+                <div class="right-column">
+                    <header>
+                        <!--add nav-bar-->
+                        <nav class="nav">
+                            <ul class="nav-list">
+                            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                            <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                            <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                            </ul>
+                        </nav>
+                        <h1>Romana Vasyliv</h1>
+                        <h4 class="subtitle">Junior Front-end developer</h4>
+                    </header>
+                    <!--add section summary-->
+                        <section class="summary" id="summary">
+                            <h3>Summary</h3>
+                            <hr>
+                            <p>I am 24 years old. I like to take part in the initial stages of the project to get a clear idea of ​​the scope and directions of the tasks. I act best when I am allowed to use / demonstrate my own ingenuity and competence.</p>
+                        </section>
+                        <!--add section education-->
+                        <section class="education" id="education">
+                            <h3>Education</h3>
+                            <hr>
+                                <div class="item-education">
+                                    <p>Ukrainian National Forestry University</p>
+                                    <span>computer science</span>
+                                    <p>HTML Academy</p>
+                                    <span>Advanced JS</span>
+                                </div>
+                        </section>
+                        <!--add section code-example-->
+                        <section class="code" id="code" >
+                            <h3>Code</h3>
+                            <hr>
+                                <pre>
+                                    <code>
+class Employee {  
+    constructor() {  
+        this.id=101;  
+         this.name = "Martin Roy";  
+       }   
+     }  
+var emp = new Employee();  
+ document.writeln(emp.id+" "+emp.name);  
+                                    </code>
+                                </pre>
+                        </section>
+                </div>
+            </main>
+            <!--add footer-->
+                <footer class="footer">
+                    <div class="container-footer">
+                        <a href="https://github.com/VasylivR" class="github-link" aria-label="github-link">VasylivR</a>
+                        <p>2022 ©</p>
+                        <a href="https://rs.school/js/" class="rsschool-img" target="_blank" aria-label="rsschool-img"></a>
+                    </div>
+                </footer> 
+            </div>  
+    </body>
+</html>
