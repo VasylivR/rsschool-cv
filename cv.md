@@ -35,3 +35,13 @@ I am 25 years old. I like to take part in the initial stages of the project to g
     food += 2; //An hour has passed, the number of units increased by 2
   }
 }
+
+ Education
+* Ukrainian National Forestry University
+    * computer science
+* HTML Academy
+    * Advanced JS    
+# Languages
+* Ukrainian - native speaker.
+* Polish - B2
+* English - A2 (B1 in process…)
