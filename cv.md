@@ -17,3 +17,21 @@ I am 25 years old. I like to take part in the initial stages of the project to g
 * Interpersonal Skills
 * Detail Oriented
 * Problem Solving
+# Skills
+* HTML
+* CSS (Bootstrap, SASS/SCSS, BEM)
+* JavaScript (Fundamentals, ES6)
+* Git/GitHub
+* Avocode, Figma, Photoshop
+* Java
+
+# Code Examples
+
+```loop(food = 0; foodNeeded = 10) {
+  if (food = foodNeeded) {
+    exit loop;
+    // We have enough food
+  } else {
+    food += 2; //An hour has passed, the number of units increased by 2
+  }
+}
